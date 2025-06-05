@@ -15,7 +15,7 @@ object AdMobManager {
 
     fun loadAd(context: Context) {
         val adRequest = AdRequest.Builder().build()
-        RewardedAd.load(context, "ca-app-pub-9632672012070277/8973343551", adRequest, object : RewardedAdLoadCallback() {
+        RewardedAd.load(context, "YOUR_UNIT_ID", adRequest, object : RewardedAdLoadCallback() {
             override fun onAdLoaded(ad: RewardedAd) {
                 rewardedAd = ad
                 Log.d("AdMob", "Rewarded ad loaded.")
