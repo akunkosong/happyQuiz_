@@ -14,8 +14,8 @@ import java.net.URL
 
 object DatabaseHelper {
 
-    private const val WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzQFbr7nHlK0heR3ZT0cf_k_2nsG-CEXsKWuVBWOSauyzXHpbbaZubDGN95mFq68jR6/exec"
-    private const val SHEET_ID = "1RXX41wNBSBvigIEZVPzFenz5eZj_4R5JL-cxmiQQPXA"
+    private const val WEB_APP_URL = "YOUR_GAS_URL"
+    private const val SHEET_ID = "YOUR_SHEET_ID"
 
 
     suspend fun readAll(sheetName: String): List<Map<String, String>> {
